@@ -1,0 +1,13 @@
+<p>home works!</p>
+<div class="coursepanel">
+<mat-tab label="Begginers">
+    <app-coursecard *ngFor="let course of begginercourse" [getcourse]="course">
+
+    </app-coursecard>
+</mat-tab>
+<mat-tab label="Advanced">
+    <app-coursecard *ngFor="let course of advancecourse" [getcourse]="course">
+
+    </app-coursecard>
+</mat-tab>
+</div>
